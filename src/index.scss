@@ -1,0 +1,11 @@
+@import 'var.scss';
+
+#app{
+    color: $red;
+    font-size: 50px;
+
+    .text{
+        width: 250px;
+        @include ellipsis;
+    }
+}
